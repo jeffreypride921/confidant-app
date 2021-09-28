@@ -1,0 +1,57 @@
+.ConfidantItems {
+    width: auto;
+    height: auto;
+}
+
+.conf-header {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.conf-rank {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.conf-rank:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.conf-rank-header {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+    color: white;
+}
+
+table {
+    width: 75%;
+    color: white;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    background-color: rgba(50, 0, 0);
+}
+
+th {
+    width: 15%;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(30, 0, 0);
+}
+
+td {
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(70, 0, 0);
+}
