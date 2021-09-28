@@ -40,8 +40,9 @@
     grid-gap: 50px;
     justify-content: center;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 8%;
     margin-left: 10rem;
+    top: 50%;
 }
 
 .p5-logo {
@@ -76,6 +77,7 @@
         margin-top: 4rem;
         margin-left: 2rem;
         margin-right: 2rem;
+        top: 50%
     }
     .video-bg {
         min-width: none;
@@ -86,5 +88,9 @@
     .video-bg video {
         width: auto;
         height: auto;
+    }
+    .p5-logo,
+    .p5r-logo {
+        width: 25rem;
     }
 }
