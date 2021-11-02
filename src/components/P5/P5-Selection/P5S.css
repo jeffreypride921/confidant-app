@@ -34,7 +34,7 @@
 
 .char-list {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
     grid-gap: 30px;
     list-style: none;
     justify-content: center;
@@ -53,9 +53,8 @@
 }
 
 @media screen and (max-width: 960px) {
-    .char-list {
-        grid-template-columns: none;
-        margin-bottom: 2.5rem;
+    .P5S-items {
+        height: auto;
     }
     .p5-video-bg {
         opacity: 0%;

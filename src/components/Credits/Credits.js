@@ -15,7 +15,6 @@ class Credits extends React.Component{
                     <p>P5 and P5R Page Backgrounds - "Coloured Bokeh with Starlights" prvoided by Videvo</p>
                     <p>Game Logos and charcter artwork all belong to Atlus</p>
                 </div>
-                <p className="contact">Contact Email: jeffreypride921@gmail.com</p>
             </div>
             </motion.div>
         )

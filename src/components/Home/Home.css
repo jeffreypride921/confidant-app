@@ -71,10 +71,10 @@
     .home-logos {
         display: grid;
         grid-template-columns: none;
-        grid-gap: 50px;
+        grid-gap: 75px;
         justify-content: center;
         text-align: center;
-        margin-top: 4rem;
+        margin-top: 5rem;
         margin-left: 2rem;
         margin-right: 2rem;
         top: 50%
