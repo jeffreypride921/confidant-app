@@ -52,8 +52,12 @@
 }
 
 @media screen and (max-width: 960px) {
+    .P5RS-items {
+        height: auto;
+    }
     .char-list-p5r {
         grid-template-columns: none;
+        margin-bottom: 3rem;
     }
     .p5r-video-bg {
         opacity: 0%;

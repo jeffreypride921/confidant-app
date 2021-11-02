@@ -1,5 +1,6 @@
 .NavbarItems {
     background: linear-gradient(90deg, rgba(179, 27, 27, 1) 0%, rgba(152, 22, 22, 1) 50%, rgba(108, 3, 3, 1) 100%);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
     height: 80px;
     display: flex;
     justify-content: center;

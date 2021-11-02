@@ -36,45 +36,40 @@
 
 .home-logos {
     display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-gap: 50px;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 100px;
     justify-content: center;
     text-align: center;
     margin-top: 8%;
-    margin-left: 10rem;
     top: 50%;
 }
 
 .p5-logo {
-    width: 35rem;
-    padding: 2rem 2rem;
+    width: 31rem;
 }
 
 .p5-logo:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    transition: all 0.2s ease-out
+    transition: transform .2s;
+    transform: scale(1.2);
 }
 
 .p5r-logo {
     width: 35rem;
-    padding: 2rem 2rem;
 }
 
 .p5r-logo:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    transition: all 0.2s ease-out
+    transition: transform .2s;
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 960px) {
     .home-logos {
         display: grid;
         grid-template-columns: none;
-        grid-gap: 75px;
+        grid-gap: 120px;
         justify-content: center;
         text-align: center;
-        margin-top: 5rem;
+        margin-top: 6rem;
         margin-left: 2rem;
         margin-right: 2rem;
         top: 50%
@@ -89,8 +84,10 @@
         width: auto;
         height: auto;
     }
-    .p5-logo,
+    .p5-logo {
+        width: 19rem;
+    }
     .p5r-logo {
-        width: 25rem;
+        width: 21rem;
     }
 }
