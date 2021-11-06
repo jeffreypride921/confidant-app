@@ -20,7 +20,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    opacity: 20%;
+    opacity: 0.2;
     min-width: 100%;
     min-height: 100%;
     max-height: 100%;
